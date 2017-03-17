@@ -1,0 +1,206 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/iransans/IRANSans.woff"); }
+a, p, h1, h2, h3, h4, h5, h6, li, button, input, div {
+  direction: rtl;
+  font-family: IRANSans; }
+
+.mypadding {
+  padding: 0 13px; }
+
+.offer {
+  position: absolute;
+  top: 0px;
+  font-size: 15px;
+  color: #fff;
+  background: #fd6162;
+  width: 50px;
+  min-height: 50px;
+  text-align: center;
+  vertical-align: bottom;
+  z-index: 5;
+  right: 30px;
+  padding-top: 16px;
+  line-height: 1.1; }
+
+.offer::after {
+  content: " ";
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  z-index: -1;
+  border-right: solid 25px transparent;
+  border-left: solid 25px transparent;
+  border-top: solid 17px #fd6162; }
+
+.offer.small {
+  position: absolute;
+  top: 0px;
+  font-size: 8px;
+  color: #fff;
+  background: #fd6162;
+  width: 33px;
+  min-height: 33px;
+  text-align: center;
+  vertical-align: bottom;
+  z-index: 5;
+  right: 30px;
+  padding-top: 5px;
+  line-height: 1.1; }
+
+.offer.small span:first-child {
+  font-size: 14px; }
+
+.offer.small::after {
+  content: " ";
+  position: absolute;
+  top: 33px;
+  right: 0px;
+  z-index: -1;
+  border-right: solid 16.5px transparent;
+  border-left: solid 16.5px transparent;
+  border-top: solid 10px #fd6162; }
+
+.special {
+  position: absolute;
+  top: 0px;
+  font-size: 15px;
+  color: #fff;
+  background: #7ad3d3;
+  width: 50px;
+  min-height: 50px;
+  text-align: center;
+  vertical-align: bottom;
+  z-index: 5;
+  right: 30px;
+  padding-top: 16px;
+  line-height: 1.1; }
+
+.special::after {
+  content: " ";
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  z-index: -1;
+  border-right: solid 25px transparent;
+  border-left: solid 25px transparent;
+  border-top: solid 17px #7ad3d3; }
+
+.special.small {
+  position: absolute;
+  top: 0px;
+  font-size: 6px;
+  color: #fff;
+  background: #7ad3d3;
+  width: 33px;
+  min-height: 33px;
+  text-align: center;
+  vertical-align: bottom;
+  z-index: 5;
+  right: 30px;
+  padding-top: 10px;
+  line-height: 1.1; }
+
+.special.small::after {
+  content: " ";
+  position: absolute;
+  top: 33px;
+  right: 0px;
+  z-index: -1;
+  border-right: solid 16.5px transparent;
+  border-left: solid 16.5px transparent;
+  border-top: solid 10px #7ad3d3; }
+
+.mytitle {
+  height: 50px;
+  background-color: #e6daca;
+  margin: 20px 0;
+  margin-bottom: 40px; }
+  .mytitle a {
+    float: right;
+    position: absolute;
+    z-index: 5; }
+    .mytitle a img {
+      width: 70px;
+      margin-top: 15px;
+      margin-right: 20px; }
+  .mytitle span {
+    color: #b5a38d;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px; }
+
+body {
+  background: #fff !important; }
+
+.top-header {
+  direction: ltr;
+  background-color: #7fcbc8;
+  color: #fff;
+  height: 70px;
+  padding: 20px 0px; }
+  .top-header .user-box {
+    float: left; }
+    .top-header .user-box .btn-login {
+      background-color: #fff;
+      color: #7fcbc8;
+      margin-top: -7px;
+      border-radius: 10px; }
+    .top-header .user-box .btn-login:focus {
+      outline: 0px; }
+  .top-header .user-wrapper {
+    direction: rtl;
+    float: left; }
+    .top-header .user-wrapper li {
+      display: inline;
+      margin-left: 40px; }
+    .top-header .user-wrapper .free-cart::after {
+      content: " ";
+      background-image: url(../img/icon/freetest.png);
+      background-repeat: no-repeat;
+      width: 21px;
+      height: 24px;
+      position: absolute;
+      margin: -5px 10px 0 0; }
+  .top-header .search {
+    float: right;
+    background-color: #fff;
+    color: #7fcbc8;
+    direction: rtl;
+    padding: 5px  20px  5px 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 385px; }
+    .top-header .search i {
+      float: left;
+      margin-top: 2px; }
+    .top-header .search input {
+      border: 0px; }
+  .top-header .logo {
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -44px;
+    margin-top: -12px;
+    z-index: 5; }
+
+nav .navbar {
+  min-height: 60px; }
+nav .navbar-right li {
+  margin-right: 35px;
+  font-size: 16px; }
+nav a {
+  color: #b5a38d !important;
+  padding: 20px 20px; }
+
+.navbar-collapse {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+ul.nav.navbar-nav.navbar-right {
+  float: left !important; }
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,28 @@
+{
+  "name": "recloud",
+  "version": "1.0.0",
+  "description": "Mehrdad Abbasi",
+  "main": "index.js",
+  "dependencies": {
+    "grunt-browser-sync": "^2.2.0",
+    "bootstrap": "^3.3.6",
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-sass": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehrdad Abbasi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "0"
+  },
+  "keywords": [
+    "recloud"
+  ]
+}
